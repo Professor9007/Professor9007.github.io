@@ -10,7 +10,7 @@ body{
     grid-gap: 5px;
 }
 div{
-    padding: 20px;
+    padding: 5px;
 }
 .box{
     height:50px;
@@ -62,7 +62,7 @@ h2{
     color-scheme: #e1681caf !important;
     text-shadow: red 0 -3px 4px!important;
     margin-left: 12px;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
 }
