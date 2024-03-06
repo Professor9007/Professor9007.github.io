@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<title> Apni Kaksha </title>
+</head>
+<body>
+<div class="container">
+<form action="" method="get">
+    <h1 class="main_heading">Payment Form</h1>
+    <h2>Contact Information</h2>
+    <h5>* Signed are must be filled</h5>
+    <p>Name : * <input type="text" name="name" id="name" required></p>
+    <p>Address : <textarea name="address" id="address" cols="100" rows="10"></textarea></p>
+    <fieldset>
+        <legend>Gender</legend>
+    <p>Male <input type="radio" name="gender" id="male"></p>
+    <p>Female <input type="radio" name="gender" id="female"></p>
+    </fieldset>
+<p>Email :  <input type="email" name="email" id="email"></p>
+<p>Pin code : <input type="number" name="pincode" id="pincode"></p>
+<h2>Payment Information</h2>
+<p> Card Type : 
+    <select name="card_type" id="card_type">Card Type
+    <option value="">--Select a card type--</option>
+    <option value="Rupay">Rupay</option>
+    <option value="Visa">Visa</option>
+    <option value="Pay Now">Pay Now</option>
+    </select>
+</p>
+<p>Expiration Date : <input type="date" name="exp_date" id="exp_date"></p>
+<p>CVV : <input type="password" name="cvv" id="cvv"></p>
+<input type="submit" value="Pay Now">
+</form>
+</div>
+</body>
+</html>
